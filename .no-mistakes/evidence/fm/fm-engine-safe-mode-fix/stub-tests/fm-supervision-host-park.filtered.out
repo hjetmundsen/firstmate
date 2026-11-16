@@ -1,0 +1,5 @@
+1..3
+ok - host: an engine turn whose commands were refused is an engine error that names the refusal and trips the latch
+ok - host: a turn that handled its wake stays handled when one of its calls was refused, and its ledger line records the refusal
+ok - host: two engine errors latch the session, main keeps every away wake in the cooldown, a failed probe doubles it up to its cap, and a report recovers it silently
+FM_TEST_COMPLETE

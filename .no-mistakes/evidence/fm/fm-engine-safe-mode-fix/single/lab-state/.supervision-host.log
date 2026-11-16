@@ -1,0 +1,3 @@
+1794810918	start	gen=host-54788-1794810917	primary=claude
+1794810934	failed	turn=host-54788-1794810917.1	posture=away	rc=0	reports=0	unacked=1 2	error=0 cost=0.002411 conversation_cost=0.002411 input=6 cache_read=61585 cache_write=6614 output=944 turns=3 denied=1		signal: /private/tmp/claude-501/fm-lab.GOwjtX/state/demo.status
+1794810935	to-main	the away session could not take this wake: the engine's commands were refused by its permission rules (1 refused); this wake is yours

@@ -1,0 +1,3 @@
+watcher: started pid=66087 (beacon fresh)
+signal: /private/tmp/claude-501/fm-lab.EkP1Nj/state/demo.status
+supervision-host: the away session could not take this wake: the engine turn recorded no outcome for its wake; this wake is yours

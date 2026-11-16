@@ -1,0 +1,6 @@
+1794810951	start	gen=host-65607-1794810950	primary=claude
+1794810971	failed	turn=host-65607-1794810950.1	posture=away	rc=0	reports=0	unacked=1 2	error=0 cost=0.002282 conversation_cost=0.002282 input=6 cache_read=60153 cache_write=5965 output=974 turns=3		signal: /private/tmp/claude-501/fm-lab.EkP1Nj/state/demo.status
+1794810972	to-main	the away session could not take this wake: the engine turn recorded no outcome for its wake; this wake is yours
+1794810979	start	gen=host-74928-1794810979	primary=claude
+1794810996	failed	turn=host-74928-1794810979.1	posture=away	rc=0	reports=0	unacked=3 4	error=0 cost=0.001742 conversation_cost=0.001742 input=4 cache_read=39352 cache_write=4306 output=973 turns=2		signal: /private/tmp/claude-501/fm-lab.EkP1Nj/state/demo.status
+1794810997	to-main	the away session could not take this wake: the engine turn recorded no outcome for its wake; this wake is yours

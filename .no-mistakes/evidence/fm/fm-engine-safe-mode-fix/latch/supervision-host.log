@@ -1,0 +1,9 @@
+1794810804	start	gen=host-28868-1794810803	primary=claude
+1794810825	failed	turn=host-28868-1794810803.1	posture=away	rc=0	reports=0	unacked=1 2	error=0 cost=0.005627 conversation_cost=0.005627 input=6 cache_read=45078 cache_write=23032 output=1138 turns=3 denied=1		signal: /private/tmp/claude-501/fm-lab.VF0rUY/state/demo.status
+1794810826	to-main	the away session could not take this wake: the engine's commands were refused by its permission rules (1 refused); this wake is yours
+1794810833	start	gen=host-37268-1794810833	primary=claude
+1794810852	latch	errors=2	cooldown=300s
+1794810852	failed	turn=host-37268-1794810833.1	posture=away	rc=0	reports=0	unacked=3 4	error=0 cost=0.002363 conversation_cost=0.002363 input=6 cache_read=62782 cache_write=5781 output=1156 turns=4 denied=1		signal: /private/tmp/claude-501/fm-lab.VF0rUY/state/demo.status
+1794810853	to-main	the away session could not take this wake: the engine's commands were refused by its permission rules (1 refused); this wake is yours
+1794810859	start	gen=host-45261-1794810858	primary=claude
+1794810864	to-main	the away session is paused after repeated engine errors until 22:39; this wake is yours

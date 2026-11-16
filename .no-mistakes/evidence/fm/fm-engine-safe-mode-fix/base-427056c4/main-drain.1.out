@@ -1,0 +1,13 @@
+1794810956	2	signal	demo.status	signal: /private/tmp/claude-501/fm-lab.EkP1Nj/state/demo.status
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 2 --recovery-generation 66087.1794810956.5svlGD
+wake annotation: latest wake-EVENT observed at drain, not current state: demo.status: done [at=1794810952]: demo cleanup step 1 finished; nothing else is needed
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+demo done [at=1794810952]: demo cleanup step 1 finished; nothing else is needed
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 7s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.

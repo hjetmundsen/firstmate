@@ -1,0 +1,7 @@
+1794810862	6	signal	demo.status	signal: /private/tmp/claude-501/fm-lab.VF0rUY/state/demo.status
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 6 --recovery-generation 45808.1794810862.hI2bJl
+wake annotation: latest wake-EVENT observed at drain, not current state: demo.status: done [at=1794810860]: demo cleanup step 3 finished; nothing else is needed
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+demo done [at=1794810860]: demo cleanup step 3 finished; nothing else is needed
+WARNING: watcher still down (same stale episode; last beat: 7s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.

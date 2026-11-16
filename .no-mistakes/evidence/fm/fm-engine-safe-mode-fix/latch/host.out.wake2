@@ -1,0 +1,4 @@
+watcher: started pid=37530 (beacon fresh)
+signal: /private/tmp/claude-501/fm-lab.VF0rUY/state/demo.status
+supervision-host: the away session could not take this wake: the engine's commands were refused by its permission rules (1 refused); this wake is yours
+supervision-host: the supervision session is paused after repeated engine errors; every wake reaches you for the next 5 minutes, then one wake probes it again

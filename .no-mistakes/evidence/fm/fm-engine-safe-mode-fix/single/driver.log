@@ -1,0 +1,42 @@
+[22:35:16] lab home /private/tmp/claude-501/fm-lab.GOwjtX (marker: .fm-lab-home config data projects state )
+[22:35:16] claude 2.1.325 (Claude Code)
+[22:35:18] wake 1: host parked on watcher 55179
+[22:35:36] wake 1: host exit rc=0 after 18s; failed rows 0->1, handled rows 0->0
+--- host.out (wake 1)
+watcher: started pid=55179 (beacon fresh)
+signal: /private/tmp/claude-501/fm-lab.GOwjtX/state/demo.status
+supervision-host: the away session could not take this wake: the engine's commands were refused by its permission rules (1 refused); this wake is yours
+--- health
+key=54764:267512906:4294967295|claude|claude-haiku-5-5
+errors=1
+cooldown=0
+retry_after=0
+--- ledger
+1794810918	start	gen=host-54788-1794810917	primary=claude
+1794810934	failed	turn=host-54788-1794810917.1	posture=away	rc=0	reports=0	unacked=1 2	error=0 cost=0.002411 conversation_cost=0.002411 input=6 cache_read=61585 cache_write=6614 output=944 turns=3 denied=1		signal: /private/tmp/claude-501/fm-lab.GOwjtX/state/demo.status
+1794810935	to-main	the away session could not take this wake: the engine's commands were refused by its permission rules (1 refused); this wake is yours
+[22:35:46] return brief exit 0
+fm-afk-launch: away-posture record archived at /private/tmp/claude-501/fm-lab.GOwjtX/state/afk-contracts/1794810916.afk-contract
+fm-afk-launch: away mode stopped; no daemon terminal was running, .afk cleared, and the posture record archived
+WARNING: watcher still down (same stale episode; last beat: 11s ago, grace 300s) - full banner already printed this episode.
+=== Return brief (away 2026-11-16T06:35:16Z -> 2026-11-16T06:35:45Z, 29s) ===
+Supervisor health:
+  - supervision ran through the away window with no detected gap (watcher beat 8s old at return)
+Your instructions:
+  your words at entry:
+    Watch the fleet. Merge nothing and dispatch nothing.
+  the away session took no action under them.
+Waiting on you:
+  (nothing)
+Tried and failed, or could not be fixed:
+  - at least 1 supervision engine turn(s) ended in an engine error during the away window without latching; not paused at return
+Landed, cleanup due:
+  (nothing)
+Handled while away:
+  0 outcome(s) handled by the away session (0 routine, 0 escalated above)
+  (no routine outcomes recorded in the store for this window)
+Cost: 0 supervision outcome(s) recorded (0 routine, 0 captain); 1 task(s) live at return.
+catch-up health: supervision ran through the away window with no detected gap (watcher beat 8s old at return)
+catch-up engine: at least 1 supervision engine turn(s) ended in an engine error during the away window without latching; not paused at return
+fm-afk-return: catch-up clear; ordinary captain work may proceed
+[22:35:48] lab removed: yes

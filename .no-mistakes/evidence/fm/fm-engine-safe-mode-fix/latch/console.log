@@ -1,0 +1,72 @@
+[22:33:21] lab home /private/tmp/claude-501/fm-lab.VF0rUY (marker: .fm-lab-home config data projects state )
+[22:33:21] claude 2.1.325 (Claude Code)
+[22:33:25] wake 1: host parked on watcher 29171
+[22:33:47] wake 1: host exit rc=0 after 22s; failed rows 0->1, handled rows 0->0
+--- host.out (wake 1)
+watcher: started pid=29171 (beacon fresh)
+signal: /private/tmp/claude-501/fm-lab.VF0rUY/state/demo.status
+supervision-host: the away session could not take this wake: the engine's commands were refused by its permission rules (1 refused); this wake is yours
+--- health
+key=28845:1268609128:4294967295|claude|claude-haiku-5-5
+errors=1
+cooldown=0
+retry_after=0
+[22:33:54] wake 2: host parked on watcher 37530
+[22:34:14] wake 2: host exit rc=0 after 20s; failed rows 1->2, handled rows 0->0
+--- host.out (wake 2)
+watcher: started pid=37530 (beacon fresh)
+signal: /private/tmp/claude-501/fm-lab.VF0rUY/state/demo.status
+supervision-host: the away session could not take this wake: the engine's commands were refused by its permission rules (1 refused); this wake is yours
+supervision-host: the supervision session is paused after repeated engine errors; every wake reaches you for the next 5 minutes, then one wake probes it again
+--- health
+key=28845:1268609128:4294967295|claude|claude-haiku-5-5
+errors=2
+cooldown=300
+retry_after=1794811152
+[22:34:20] wake 3: host parked on watcher 45808
+[22:34:25] wake 3: host exit rc=0 after 5s; failed rows 2->2, handled rows 0->0
+--- host.out (wake 3)
+watcher: started pid=45808 (beacon fresh)
+signal: /private/tmp/claude-501/fm-lab.VF0rUY/state/demo.status
+supervision-host: the away session is paused after repeated engine errors until 22:39; this wake is yours
+--- health
+key=28845:1268609128:4294967295|claude|claude-haiku-5-5
+errors=2
+cooldown=300
+retry_after=1794811152
+--- ledger
+1794810804	start	gen=host-28868-1794810803	primary=claude
+1794810825	failed	turn=host-28868-1794810803.1	posture=away	rc=0	reports=0	unacked=1 2	error=0 cost=0.005627 conversation_cost=0.005627 input=6 cache_read=45078 cache_write=23032 output=1138 turns=3 denied=1		signal: /private/tmp/claude-501/fm-lab.VF0rUY/state/demo.status
+1794810826	to-main	the away session could not take this wake: the engine's commands were refused by its permission rules (1 refused); this wake is yours
+1794810833	start	gen=host-37268-1794810833	primary=claude
+1794810852	latch	errors=2	cooldown=300s
+1794810852	failed	turn=host-37268-1794810833.1	posture=away	rc=0	reports=0	unacked=3 4	error=0 cost=0.002363 conversation_cost=0.002363 input=6 cache_read=62782 cache_write=5781 output=1156 turns=4 denied=1		signal: /private/tmp/claude-501/fm-lab.VF0rUY/state/demo.status
+1794810853	to-main	the away session could not take this wake: the engine's commands were refused by its permission rules (1 refused); this wake is yours
+1794810859	start	gen=host-45261-1794810858	primary=claude
+1794810864	to-main	the away session is paused after repeated engine errors until 22:39; this wake is yours
+[22:34:36] return brief exit 0
+fm-afk-launch: away-posture record archived at /private/tmp/claude-501/fm-lab.VF0rUY/state/afk-contracts/1794810802.afk-contract
+fm-afk-launch: away mode stopped; no daemon terminal was running, .afk cleared, and the posture record archived
+WARNING: watcher still down (same stale episode; last beat: 13s ago, grace 300s) - full banner already printed this episode.
+=== Return brief (away 2026-11-16T06:33:22Z -> 2026-11-16T06:34:34Z, 1m) ===
+Supervisor health:
+  - supervision ran through the away window with no detected gap (watcher beat 10s old at return)
+Your instructions:
+  your words at entry:
+    Watch the fleet. Merge nothing and dispatch nothing.
+  the away session took no action under them.
+Waiting on you:
+  (nothing)
+Tried and failed, or could not be fixed:
+  - the supervision session latched at 2026-11-16T06:34:12Z after 2 consecutive engine errors and paused away supervision (at least 2 engine error(s) in the window, last cooldown 300s); still paused at return: every wake reaches main until 2026-11-16T06:39:12Z, then one wake probes the engine again
+Landed, cleanup due:
+  (nothing)
+Handled while away:
+  0 outcome(s) handled by the away session (0 routine, 0 escalated above)
+  (no routine outcomes recorded in the store for this window)
+Cost: 0 supervision outcome(s) recorded (0 routine, 0 captain); 1 task(s) live at return.
+catch-up health: supervision ran through the away window with no detected gap (watcher beat 10s old at return)
+catch-up engine: the supervision session latched at 2026-11-16T06:34:12Z after 2 consecutive engine errors and paused away supervision (at least 2 engine error(s) in the window, last cooldown 300s); still paused at return: every wake reaches main until 2026-11-16T06:39:12Z, then one wake probes the engine again
+fm-afk-return: catch-up clear; ordinary captain work may proceed
+[22:34:37] lab removed: yes
+driver exit 0

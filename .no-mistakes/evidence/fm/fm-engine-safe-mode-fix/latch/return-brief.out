@@ -1,0 +1,23 @@
+fm-afk-launch: away-posture record archived at /private/tmp/claude-501/fm-lab.VF0rUY/state/afk-contracts/1794810802.afk-contract
+fm-afk-launch: away mode stopped; no daemon terminal was running, .afk cleared, and the posture record archived
+WARNING: watcher still down (same stale episode; last beat: 13s ago, grace 300s) - full banner already printed this episode.
+=== Return brief (away 2026-11-16T06:33:22Z -> 2026-11-16T06:34:34Z, 1m) ===
+Supervisor health:
+  - supervision ran through the away window with no detected gap (watcher beat 10s old at return)
+Your instructions:
+  your words at entry:
+    Watch the fleet. Merge nothing and dispatch nothing.
+  the away session took no action under them.
+Waiting on you:
+  (nothing)
+Tried and failed, or could not be fixed:
+  - the supervision session latched at 2026-11-16T06:34:12Z after 2 consecutive engine errors and paused away supervision (at least 2 engine error(s) in the window, last cooldown 300s); still paused at return: every wake reaches main until 2026-11-16T06:39:12Z, then one wake probes the engine again
+Landed, cleanup due:
+  (nothing)
+Handled while away:
+  0 outcome(s) handled by the away session (0 routine, 0 escalated above)
+  (no routine outcomes recorded in the store for this window)
+Cost: 0 supervision outcome(s) recorded (0 routine, 0 captain); 1 task(s) live at return.
+catch-up health: supervision ran through the away window with no detected gap (watcher beat 10s old at return)
+catch-up engine: the supervision session latched at 2026-11-16T06:34:12Z after 2 consecutive engine errors and paused away supervision (at least 2 engine error(s) in the window, last cooldown 300s); still paused at return: every wake reaches main until 2026-11-16T06:39:12Z, then one wake probes the engine again
+fm-afk-return: catch-up clear; ordinary captain work may proceed

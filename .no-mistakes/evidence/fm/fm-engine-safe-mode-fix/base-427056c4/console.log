@@ -1,0 +1,56 @@
+[22:35:48] lab home /private/tmp/claude-501/fm-lab.EkP1Nj (marker: .fm-lab-home config data projects state )
+[22:35:48] claude 2.1.325 (Claude Code)
+[22:35:52] wake 1: host parked on watcher 66087
+[22:36:13] wake 1: host exit rc=0 after 21s; failed rows 0->1, handled rows 0->0
+--- host.out (wake 1)
+watcher: started pid=66087 (beacon fresh)
+signal: /private/tmp/claude-501/fm-lab.EkP1Nj/state/demo.status
+supervision-host: the away session could not take this wake: the engine turn recorded no outcome for its wake; this wake is yours
+--- health
+key=65579:620606711:4294967295|claude|claude-haiku-5-5
+errors=0
+cooldown=0
+retry_after=0
+[22:36:20] wake 2: host parked on watcher 75246
+[22:36:38] wake 2: host exit rc=0 after 18s; failed rows 1->2, handled rows 0->0
+--- host.out (wake 2)
+watcher: started pid=75246 (beacon fresh)
+signal: /private/tmp/claude-501/fm-lab.EkP1Nj/state/demo.status
+supervision-host: the away session could not take this wake: the engine turn recorded no outcome for its wake; this wake is yours
+--- health
+key=65579:620606711:4294967295|claude|claude-haiku-5-5
+errors=0
+cooldown=0
+retry_after=0
+--- ledger
+1794810951	start	gen=host-65607-1794810950	primary=claude
+1794810971	failed	turn=host-65607-1794810950.1	posture=away	rc=0	reports=0	unacked=1 2	error=0 cost=0.002282 conversation_cost=0.002282 input=6 cache_read=60153 cache_write=5965 output=974 turns=3		signal: /private/tmp/claude-501/fm-lab.EkP1Nj/state/demo.status
+1794810972	to-main	the away session could not take this wake: the engine turn recorded no outcome for its wake; this wake is yours
+1794810979	start	gen=host-74928-1794810979	primary=claude
+1794810996	failed	turn=host-74928-1794810979.1	posture=away	rc=0	reports=0	unacked=3 4	error=0 cost=0.001742 conversation_cost=0.001742 input=4 cache_read=39352 cache_write=4306 output=973 turns=2		signal: /private/tmp/claude-501/fm-lab.EkP1Nj/state/demo.status
+1794810997	to-main	the away session could not take this wake: the engine turn recorded no outcome for its wake; this wake is yours
+[22:36:50] return brief exit 0
+fm-afk-launch: away-posture record archived at /private/tmp/claude-501/fm-lab.EkP1Nj/state/afk-contracts/1794810948.afk-contract
+fm-afk-launch: away mode stopped; no daemon terminal was running, .afk cleared, and the posture record archived
+WARNING: watcher still down (same stale episode; last beat: 13s ago, grace 300s) - full banner already printed this episode.
+=== Return brief (away 2026-11-16T06:35:48Z -> 2026-11-16T06:36:49Z, 1m) ===
+Supervisor health:
+  - supervision ran through the away window with no detected gap (watcher beat 10s old at return)
+Your instructions:
+  your words at entry:
+    Watch the fleet. Merge nothing and dispatch nothing.
+  the away session took no action under them.
+Waiting on you:
+  (nothing)
+Tried and failed, or could not be fixed:
+  (nothing)
+Landed, cleanup due:
+  (nothing)
+Handled while away:
+  0 outcome(s) handled by the away session (0 routine, 0 escalated above)
+  (no routine outcomes recorded in the store for this window)
+Cost: 0 supervision outcome(s) recorded (0 routine, 0 captain); 1 task(s) live at return.
+catch-up health: supervision ran through the away window with no detected gap (watcher beat 10s old at return)
+fm-afk-return: catch-up clear; ordinary captain work may proceed
+[22:36:51] lab removed: yes
+driver exit 0
